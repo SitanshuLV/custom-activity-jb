@@ -1,6 +1,4 @@
-const postmonger = require("postmonger");
-
-var connection = new postmonger.Session();
+var connection = new Postmonger.Session();
 
 connection.trigger('ready');
 
