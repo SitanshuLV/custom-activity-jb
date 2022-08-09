@@ -1,0 +1,8 @@
+{
+    "workflowApiVersion": "1.1",
+    "metaData": {
+       "icon": "How_to_use_icon.svg.png",
+       "category": "message"
+    },
+    "type": "Rest"
+}
