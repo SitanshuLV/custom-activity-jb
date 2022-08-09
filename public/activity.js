@@ -5,6 +5,7 @@ var connection = new postmonger.Session();
 connection.trigger('ready');
 
 connection.on('initActivity', function( data ) {
+    console.log(JSON.stringify(data, null, 2));
     document.getElementById('response').value = JSON.stringify(data, null, 2);
 });
 
