@@ -9,58 +9,5 @@
         "configInspector": {
             "size": "medium"
         }
-    },
-    "arguments": {
-        "execute": {
-            "inArguments": [
-                { "contactKey": "{{ Contact.Key }}" },
-                { "email": "{{ Contact.Attribute.JourneyEntrySource.Email }}"},
-                { "dateEntered": "{{ Contact.Attribute.JourneyEntrySource.DateEntered }}" }
-            ],
-            "outArguments": [],
-            "url": "https://enm1ti8q546xk.x.pipedream.net/",
-            "verb": "POST",
-            "body": "",
-            "header": "",
-            "format": "json",
-            "useJwt": false,
-            "timeout": 200000,
-            "retryCount": 1,
-            "retryDelay": 5000
-        }
-    },
-    "configurationArguments": {
-        "save": {
-            "url": "{{to_replace}}",
-                "verb": "POST",
-                "body": "",
-                "format": "json",
-                "useJwt": false,
-                "timeout": 2000
-        },
-        "publish": {
-            "url": "{{to_replace}}",
-                "verb": "POST",
-                "body": "",
-                "format": "json",
-                "useJwt": false,
-                "timeout": 2000
-        },
-        "validate": {
-            "url": "{{to_replace}}",
-                "verb": "POST",
-                "body": "",
-                "format": "json",
-                "useJwt": false,
-                "timeout": 2000
-        },
-        "stop": {
-            "url": "{{to_replace}}",
-                "verb": "POST",
-                "body": "",
-                "format": "json",
-                "useJwt": false,
-                "timeout": 2000
-        }
     }
 }
