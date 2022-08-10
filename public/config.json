@@ -4,5 +4,10 @@
        "icon": "How_to_use_icon.svg.png",
        "category": "message"
     },
-    "type": "Rest"
+    "type": "Rest",
+    "userInterfaces": {
+        "configInspector": {
+            "size": "medium"
+        }
+    }
 }

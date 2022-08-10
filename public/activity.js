@@ -8,6 +8,7 @@ connection.on('initActivity', function( data ) {
 });
 
 connection.on('clickedNext', function() {
-    var respp = JSON.parse(document.getElementById('response').value);
-    connection.trigger('updateActivity', configuration);
+    var resp = JSON.parse(document.getElementById('response').value);
+    connection.trigger('updateActivity', resp);
+    console.log('in activity');
 });
