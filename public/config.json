@@ -1,13 +1,69 @@
 {
     "workflowApiVersion": "1.1",
     "metaData": {
-       "icon": "How_to_use_icon.svg.png",
+       "icon": "images/How_to_use_icon.svg.png",
        "category": "message"
     },
     "type": "Rest",
     "userInterfaces": {
-        "configInspector": {
-            "size": "medium"
+        "configModal": {
+            "height": "400",
+            "width": "1000",
+            "fullscreen": false
+        }
+    }, 
+    "arguments": {
+        "execute": {
+            "inArguments": [
+                { "contactKey": "{{ Contact.Key }}" },
+                { "email": "{{ Contact.Attribute.Test_Send.Email }}"},
+                { "dateEntered": "{{ Contact.Attribute.Test_Send.DateEntered }}" }
+            ],
+            "outArguments": [],
+            "url": "https://custom-activity-jb-sk.herokuapp.com/execute",
+            "verb": "POST",
+            "body": "",
+            "header": "",
+            "format": "json",
+            "useJwt": false,
+            "timeout": 200000,
+            "retryCount": 1,
+            "retryDelay": 5000
+        }
+    },
+    "configurationArguments": {
+        "applicationExtensionKey": "9bc76a87-3439-40af-925d-caaff1139bf7",
+        "save": {
+            "url": "https://custom-activity-jb-sk.herokuapp.com/save",
+                "verb": "POST",
+                "body": "",
+                "format": "json",
+                "useJwt": false,
+                "timeout": 2000
+        },
+        "publish": {
+            "url": "https://custom-activity-jb-sk.herokuapp.com/publish",
+                "verb": "POST",
+                "body": "",
+                "format": "json",
+                "useJwt": false,
+                "timeout": 2000
+        },
+        "validate": {
+            "url": "https://custom-activity-jb-sk.herokuapp.com/validate",
+                "verb": "POST",
+                "body": "",
+                "format": "json",
+                "useJwt": false,
+                "timeout": 2000
+        },
+        "stop": {
+            "url": "https://custom-activity-jb-sk.herokuapp.com/stop",
+                "verb": "POST",
+                "body": "",
+                "format": "json",
+                "useJwt": false,
+                "timeout": 2000
         }
     }
 }
