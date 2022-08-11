@@ -14,19 +14,15 @@
     }, 
     "lang": {
 		"en-US": {
-			"name": "Dummy Custom Split",
+			"name": "Hello World",
 			"description": "Custom Split activity that makes a decision based on data from Service Cloud"
 		}
 	},
     "arguments": {
         "execute": {
-            "inArguments": [
-                { "contactKey": "{{ Contact.Key }}" },
-                { "email": "{{ Contact.Attribute.Test_Send.Email }}"},
-                { "dateEntered": "{{ Contact.Attribute.Test_Send.DateEntered }}" }
-            ],
+            "inArguments": [],
             "outArguments": [],
-            "url": "https://custom-activity-jb-sk.herokuapp.com/execute",
+            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/jkwxofhgdcl",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -40,7 +36,7 @@
     "configurationArguments": {
         "applicationExtensionKey": "9bc76a87-3439-40af-925d-caaff1139bf7",
         "save": {
-            "url": "https://custom-activity-jb-sk.herokuapp.com/save",
+            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/q3htyft50cp",
                 "verb": "POST",
                 "body": "",
                 "format": "json",
@@ -48,7 +44,7 @@
                 "timeout": 2000
         },
         "publish": {
-            "url": "https://custom-activity-jb-sk.herokuapp.com/publish",
+            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/q3htyft50cp",
                 "verb": "POST",
                 "body": "",
                 "format": "json",
@@ -56,7 +52,7 @@
                 "timeout": 2000
         },
         "validate": {
-            "url": "https://custom-activity-jb-sk.herokuapp.com/validate",
+            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/q3htyft50cp",
                 "verb": "POST",
                 "body": "",
                 "format": "json",
@@ -64,7 +60,7 @@
                 "timeout": 2000
         },
         "stop": {
-            "url": "https://custom-activity-jb-sk.herokuapp.com/stop",
+            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/q3htyft50cp",
                 "verb": "POST",
                 "body": "",
                 "format": "json",
