@@ -12,6 +12,12 @@
             "fullscreen": false
         }
     }, 
+    "lang": {
+		"en-US": {
+			"name": "Dummy Custom Split",
+			"description": "Custom Split activity that makes a decision based on data from Service Cloud"
+		}
+	},
     "arguments": {
         "execute": {
             "inArguments": [
