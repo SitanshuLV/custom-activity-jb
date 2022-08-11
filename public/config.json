@@ -18,21 +18,7 @@
 			"description": "Custom Split activity that makes a decision based on data from Service Cloud"
 		}
 	},
-    "arguments": {
-        "execute": {
-            "inArguments": [],
-            "outArguments": [],
-            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/jkwxofhgdcl",
-            "verb": "POST",
-            "body": "",
-            "header": "",
-            "format": "json",
-            "useJwt": false,
-            "timeout": 200000,
-            "retryCount": 1,
-            "retryDelay": 5000
-        }
-    },
+    "arguments": {},
     "configurationArguments": {
         "applicationExtensionKey": "9bc76a87-3439-40af-925d-caaff1139bf7",
         "save": {
