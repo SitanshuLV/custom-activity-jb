@@ -14,11 +14,25 @@
     }, 
     "lang": {
 		"en-US": {
-			"name": "Hello World",
+			"name": "Hello World Test",
 			"description": "Custom Split activity that makes a decision based on data from Service Cloud"
 		}
 	},
-    "arguments": {},
+    "arguments": {
+        "execute": {
+            "inArguments": [],
+            "outArguments": [],
+            "url": "https://eo2f7v5ulj21kj0.m.pipedream.net",
+            "verb": "POST",
+            "body": "",
+            "header": "",
+            "format": "json",
+            "useJwt": false,
+            "timeout": 200000,
+            "retryCount": 1,
+            "retryDelay": 5000
+          }
+    },
     "configurationArguments": {
         "applicationExtensionKey": "9bc76a87-3439-40af-925d-caaff1139bf7",
         "save": {
