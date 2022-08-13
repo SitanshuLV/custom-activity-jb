@@ -1,10 +1,11 @@
 var connection = new Postmonger.Session();
+var eventKey = '';
 
 connection.trigger('ready');
 
 connection.on('requestedTriggerEventDefinition', function (eventDefinitionModel) {
-      var eventKey = eventDefinitionModel['eventDefinitionKey'];
-      save(eventKey);
+    var eventKey = eventDefinitionModel['eventDefinitionKey'];
+    save(eventKey);
 });
 
 connection.on('initActivity', function( data ) {
@@ -14,6 +15,7 @@ connection.on('initActivity', function( data ) {
 
 connection.on('clickedNext', function() {
     var resp = JSON.parse(document.getElementById('response').value);
+    console.log(eventKey);
     var params = {
         subscriberKey: '{{Contact.key}}',
         email: '{{Event.' + eventKey + '.Email}}',
