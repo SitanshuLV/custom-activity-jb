@@ -5,6 +5,7 @@ connection.trigger('ready');
 
 connection.on('requestedTriggerEventDefinition', function (eventDefinitionModel) {
     var eventKey = eventDefinitionModel['eventDefinitionKey'];
+    console.log('ttt', eventKey);
     save(eventKey);
 });
 
