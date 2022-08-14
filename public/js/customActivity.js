@@ -7,7 +7,7 @@ connection.trigger('requestTriggerEventDefinition');
 connection.on('requestedTriggerEventDefinition', function (eventDefinitionModel) {
     var eventKey = eventDefinitionModel['eventDefinitionKey'];
     console.log('ttt', eventKey);
-    save(eventKey);
+    //save(eventKey);
 });
 
 connection.on('initActivity', function( data ) {
