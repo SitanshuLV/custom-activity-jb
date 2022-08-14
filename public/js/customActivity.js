@@ -1,7 +1,8 @@
 var connection = new Postmonger.Session();
-var eventKey = '';
+var eventKey;
 
 connection.trigger('ready');
+connection.trigger('requestTriggerEventDefinition');
 
 connection.on('requestedTriggerEventDefinition', function (eventDefinitionModel) {
     var eventKey = eventDefinitionModel['eventDefinitionKey'];
