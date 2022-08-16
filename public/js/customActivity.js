@@ -7,7 +7,6 @@ connection.trigger('requestTriggerEventDefinition');
 connection.on('requestedTriggerEventDefinition', function (eventDefinitionModel) {
     eventKey = eventDefinitionModel.eventDefinitionKey;
     console.log('ttt', eventKey);
-    //save(eventKey);
 });
 
 connection.on('initActivity', function( data ) {
@@ -21,6 +20,7 @@ connection.on('clickedNext', function() {
     var params = {
         subscriberKey: '{{Contact.key}}',
         email: '{{Event.' + eventKey + '.Email}}',
+        eventkey: eventKey
       };
     payload['arguments'].execute.inArguments = [params];
     payload.metaData.isConfigured = true;
