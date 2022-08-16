@@ -18,10 +18,10 @@ connection.on('initActivity', function( data ) {
 connection.on('clickedNext', function() {
     var resp = JSON.parse(document.getElementById('response').value);
     console.log(eventKey);
-    var params = {
+    /*var params = {
         subscriberKey: '{{Contact.key}}',
         email: '{{Event.' + eventKey + '.Email}}',
       };
-    payload['arguments'].execute.inArguments = [params];
-    connection.trigger('updateActivity', payload);
+    payload['arguments'].execute.inArguments = [params];*/
+    connection.trigger('updateActivity', resp);
 });
