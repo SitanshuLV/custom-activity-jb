@@ -5,7 +5,7 @@ connection.trigger('ready');
 connection.trigger('requestTriggerEventDefinition');
 
 connection.on('requestedTriggerEventDefinition', function (eventDefinitionModel) {
-    eventKey = eventDefinitionModel['eventDefinitionKey'];
+    eventKey = eventDefinitionModel.eventDefinitionKey;
     console.log('ttt', eventKey);
     //save(eventKey);
 });
@@ -23,5 +23,6 @@ connection.on('clickedNext', function() {
         email: '{{Event.' + eventKey + '.Email}}',
       };
     payload['arguments'].execute.inArguments = [params];
+    payload.metaData.isConfigured = true;
     connection.trigger('updateActivity', resp);
 });
