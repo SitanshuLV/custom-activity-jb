@@ -24,5 +24,5 @@ connection.on('clickedNext', function() {
       };
     payload['arguments'].execute.inArguments = [params];
     payload.metaData.isConfigured = true;
-    connection.trigger('updateActivity', resp);
+    connection.trigger('updateActivity', payload);
 });
