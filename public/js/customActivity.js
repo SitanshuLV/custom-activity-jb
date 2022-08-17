@@ -23,7 +23,6 @@ connection.on('clickedNext', function() {
         eventkey: eventKey
       };
     payload['arguments'].execute.inArguments = [params];
-    payload['arguments'].execute.body = params;
     payload.metaData.isConfigured = true;
     connection.trigger('updateActivity', payload);
 });
