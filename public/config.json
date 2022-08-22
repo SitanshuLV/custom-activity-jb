@@ -25,7 +25,7 @@
             "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/jkwxofhgdcl",
             "verb": "POST",
             "body": "",
-            "header": "",
+            "header": "{\"Authorization\":\"Bearer thisIsAVeryLargeToken\"}",
             "format": "json",
             "useJwt": false,
             "timeout": 200000,
