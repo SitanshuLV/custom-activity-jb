@@ -25,7 +25,7 @@
             "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/jkwxofhgdcl",
             "verb": "POST",
             "body": "",
-            "header": "{\"Authorization\":\"Bearer thisIsAVeryLargeToken\"}",
+            "header": "{ 'Authorization' : 'Bearer thisIsAVeryLargeToken' }",
             "format": "json",
             "useJwt": false,
             "timeout": 200000,
@@ -37,35 +37,37 @@
         "applicationExtensionKey": "9bc76a87-3439-40af-925d-caaff1139bf7",
         "save": {
             "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/q3htyft50cp",
-                "verb": "POST",
-                "body": "",
-                "format": "json",
-                "useJwt": false,
-                "timeout": 2000
+            "verb": "POST",
+            "body": "",
+            "format": "json",
+            "header": "{\"Authorization\":\"Bearer thisIsAVeryLargeToken\"}",
+            "useJwt": false,
+            "customerKey": "your-encryption-customer-key-here",
+            "timeout": 2000
         },
         "publish": {
             "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/q3htyft50cp",
-                "verb": "POST",
-                "body": "",
-                "format": "json",
-                "useJwt": false,
-                "timeout": 2000
+            "verb": "POST",
+            "body": "",
+            "format": "json",
+            "useJwt": false,
+            "timeout": 2000
         },
         "validate": {
             "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/q3htyft50cp",
-                "verb": "POST",
-                "body": "",
-                "format": "json",
-                "useJwt": false,
-                "timeout": 2000
+            "verb": "POST",
+            "body": "",
+            "format": "json",
+            "useJwt": false,
+            "timeout": 2000
         },
         "stop": {
             "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/q3htyft50cp",
-                "verb": "POST",
-                "body": "",
-                "format": "json",
-                "useJwt": false,
-                "timeout": 2000
+            "verb": "POST",
+            "body": "",
+            "format": "json",
+            "useJwt": false,
+            "timeout": 2000
         }
     }
 }
