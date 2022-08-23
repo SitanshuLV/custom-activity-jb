@@ -24,7 +24,6 @@ connection.on('clickedNext', function() {
       };
     payload['arguments'].execute.inArguments = [params];
     payload['arguments'].execute.useJwt = true;
-    payload['arguments'].execute.customerKey = "ThisIsAVeryLongKeyForCustomActivity";
     payload.metaData.isConfigured = true;
     connection.trigger('updateActivity', payload);
 });
