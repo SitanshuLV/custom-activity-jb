@@ -16,13 +16,15 @@ connection.on('initActivity', function( data ) {
 
 connection.on('clickedNext', function() {
     var resp = JSON.parse(document.getElementById('response').value);
-    console.log(eventKey);
+    console.log(payload);
     var params = {
         subscriberKey: '{{Contact.key}}',
         email: '{{Event.' + eventKey + '.Email}}',
         eventkey: eventKey
       };
     payload['arguments'].execute.inArguments = [params];
+    payload['arguments'].execute.useJwt = true;
+    payload['arguments'].execute.customerKey = "ThisIsAVeryLongKeyForCustomActivity";
     payload.metaData.isConfigured = true;
     connection.trigger('updateActivity', payload);
 });
