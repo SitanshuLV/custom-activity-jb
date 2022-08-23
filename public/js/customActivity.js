@@ -15,15 +15,14 @@ connection.on('initActivity', function( data ) {
 });
 
 connection.on('clickedNext', function() {
-    var resp = JSON.parse(document.getElementById('response').value);
-    console.log(payload);
+    //var resp = JSON.parse(document.getElementById('response').value);
     var params = {
         subscriberKey: '{{Contact.key}}',
         email: '{{Event.' + eventKey + '.Email}}',
         eventkey: eventKey
       };
     payload['arguments'].execute.inArguments = [params];
-    payload['arguments'].execute.useJwt = true;
     payload.metaData.isConfigured = true;
+    console.log({"payload": payload});
     connection.trigger('updateActivity', payload);
 });
