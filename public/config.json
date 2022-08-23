@@ -27,7 +27,7 @@
             "body": "",
             "header": "",
             "format": "json",
-            "useJwt": true,
+            "useJwt": false,
             "timeout": 200000,
             "retryCount": 1,
             "retryDelay": 5000
@@ -41,7 +41,7 @@
             "body": "",
             "format": "json",
             "header": "",
-            "useJwt": false,
+            "useJwt": true,
             "timeout": 2000
         },
         "publish": {
