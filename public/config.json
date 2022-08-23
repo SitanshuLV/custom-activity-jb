@@ -42,7 +42,6 @@
             "format": "json",
             "header": "",
             "useJwt": false,
-            "customerKey": "ThisIsAVeryLongKeyForCustomActivity",
             "timeout": 2000
         },
         "publish": {
