@@ -28,7 +28,6 @@
             "header": "",
             "format": "json",
             "useJwt": true,
-            "customerKey": "ThisIsAVeryLongKeyForCustomActivity",
             "timeout": 200000,
             "retryCount": 1,
             "retryDelay": 5000
