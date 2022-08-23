@@ -27,7 +27,8 @@
             "body": "",
             "header": "{ 'Authorization' : 'Bearer thisIsAVeryLargeToken' }",
             "format": "json",
-            "useJwt": false,
+            "useJwt": true,
+            "customerKey": "ThisIsAVeryLongKeyForCustomActivity",
             "timeout": 200000,
             "retryCount": 1,
             "retryDelay": 5000
@@ -40,9 +41,9 @@
             "verb": "POST",
             "body": "",
             "format": "json",
-            "header": "{\"Authorization\":\"Bearer thisIsAVeryLargeToken\"}",
-            "useJwt": false,
-            "customerKey": "your-encryption-customer-key-here",
+            "header": "{ 'Authorization' : 'Bearer thisIsAVeryLargeToken' }",
+            "useJwt": true,
+            "customerKey": "ThisIsAVeryLongKeyForCustomActivity",
             "timeout": 2000
         },
         "publish": {
@@ -50,6 +51,7 @@
             "verb": "POST",
             "body": "",
             "format": "json",
+            "header": "{ 'Authorization' : 'Bearer thisIsAVeryLargeToken' }",
             "useJwt": false,
             "timeout": 2000
         },
@@ -58,6 +60,7 @@
             "verb": "POST",
             "body": "",
             "format": "json",
+            "header": "{ 'Authorization' : 'Bearer thisIsAVeryLargeToken' }",
             "useJwt": false,
             "timeout": 2000
         },
