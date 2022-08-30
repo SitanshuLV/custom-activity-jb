@@ -36,12 +36,12 @@
     "configurationArguments": {
         "applicationExtensionKey": "9bc76a87-3439-40af-925d-caaff1139bf7",
         "save": {
-            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/fvju5m33dmm",
+            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/q3htyft50cp",
             "verb": "POST",
             "body": "",
             "format": "json",
             "header": "",
-            "useJwt": true,
+            "useJwt": false,
             "timeout": 2000
         },
         "publish": {
