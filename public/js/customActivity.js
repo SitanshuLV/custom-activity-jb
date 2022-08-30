@@ -21,6 +21,7 @@ connection.on('clickedNext', function() {
         email: '{{Event.' + eventKey + '.Email}}',
         eventkey: eventKey
       };
+    payload['arguments'].execute.headers = `{"sktestheader":"ValueHeader"}`;
     payload['arguments'].execute.inArguments = [params];
     payload.metaData.isConfigured = true;
     connection.trigger('updateActivity', payload);
