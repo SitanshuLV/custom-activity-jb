@@ -25,7 +25,7 @@
             "url": "https://eo2f7v5ulj21kj0.m.pipedream.net/",
             "verb": "POST",
             "body": "",
-            "header": [{"sktestheader" : "skTestHeaderValue"}],
+            "header": "{sktestheader : skTestHeaderValue}",
             "format": "json",
             "useJwt": false,
             "timeout": 200000,
