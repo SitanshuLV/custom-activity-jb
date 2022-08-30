@@ -14,8 +14,8 @@
     }, 
     "lang": {
 		"en-US": {
-			"name": "Hello World Test",
-			"description": "Custom Split activity that makes a decision based on data from Service Cloud"
+			"name": "Hello World",
+			"description": ""
 		}
 	},
     "arguments": {
