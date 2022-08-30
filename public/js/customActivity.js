@@ -22,7 +22,6 @@ connection.on('clickedNext', function() {
         eventkey: eventKey
       };
     payload['arguments'].execute.inArguments = [params];
-    payload.metaData.isConfigured = true;
-    console.log({"payload": payload});
+    payload.metaData.isConfigured = true;console.log({"payload": payload});
     connection.trigger('updateActivity', payload);
 });

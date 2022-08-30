@@ -25,7 +25,7 @@
             "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/jkwxofhgdcl",
             "verb": "POST",
             "body": "",
-            "header": "",
+            "header": "{'sktestheader' : 'skHeaderValue'}",
             "format": "json",
             "useJwt": false,
             "timeout": 200000,
@@ -36,7 +36,7 @@
     "configurationArguments": {
         "applicationExtensionKey": "9bc76a87-3439-40af-925d-caaff1139bf7",
         "save": {
-            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/q3htyft50cp",
+            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/fvju5m33dmm",
             "verb": "POST",
             "body": "",
             "format": "json",
