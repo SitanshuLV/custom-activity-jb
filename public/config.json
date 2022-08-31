@@ -28,6 +28,7 @@
             "headers": "{\"sktestheader\":\"SKValueHeader\"}",
             "format": "json",
             "useJwt": true,
+            "customerKey": "ThisIsAVeryLongKeyForJB",
             "timeout": 200000,
             "retryCount": 1,
             "retryDelay": 5000
