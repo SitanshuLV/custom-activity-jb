@@ -28,8 +28,8 @@
             "body": "",
             "headers": "{\"sktestheader\":\"SKValueHeader\"}",
             "format": "json",
-            "useJwt": true,
-            "customerKey": "ThisIsAVeryLongKeyForJB",
+            "useJwt": false,
+            "customerKey": "ThisIsAVeryLongKey",
             "timeout": 200000,
             "retryCount": 1,
             "retryDelay": 5000
