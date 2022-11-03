@@ -15,8 +15,8 @@
     }, 
     "lang": {
 		"en-US": {
-			"name": "Hello World",
-			"description": ""
+			"name": "COE Ditto V1",
+			"description": "Generic custom activity by COE LVMH"
 		}
 	},
     "arguments": {
@@ -26,10 +26,9 @@
             "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/jkwxofhgdcl",
             "verb": "POST",
             "body": "",
-            "headers": "{\"sktestheader\":\"SKValueHeader\"}",
+            "headers": "{\"SKTestHeaderName\":\"SKTestHeaderValue\"}",
             "format": "json",
             "useJwt": true,
-            "customerKey": "ThisIsAVeryLongKey",
             "timeout": 200000,
             "retryCount": 1,
             "retryDelay": 5000
@@ -38,7 +37,7 @@
     "configurationArguments": {
         "applicationExtensionKey": "9bc76a87-3439-40af-925d-caaff1139bf7",
         "save": {
-            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/q3htyft50cp",
+            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/fvju5m33dmm",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -47,7 +46,7 @@
             "timeout": 2000
         },
         "publish": {
-            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/q3htyft50cp",
+            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/k25atvt52vm",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -65,7 +64,7 @@
             "timeout": 2000
         },
         "stop": {
-            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/q3htyft50cp",
+            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/4431kwxuhsk",
             "verb": "POST",
             "body": "",
             "format": "json",
