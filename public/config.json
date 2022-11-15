@@ -28,7 +28,7 @@
             "body": "",
             "headers": "{\"SKTestHeaderName\":\"SKTestHeaderValue\"}",
             "format": "json",
-            "useJwt": false,
+            "useJwt": true,
             "customerKey": "4aff730e-db05-4367-9a4d-37cf22220f26",
             "timeout": 200000,
             "retryCount": 1,
