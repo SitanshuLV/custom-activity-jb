@@ -10,7 +10,7 @@ connection.on('requestedTriggerEventDefinition', function (eventDefinitionModel)
 });
 
 connection.on('initActivity', function( data ) {
-    //document.getElementById('response').value = JSON.stringify(data, null, 2);
+    document.getElementById('response').value = JSON.stringify(data, null, 2);
     payload = data;
 });
 
