@@ -29,7 +29,7 @@
             "headers": "{\"SKTestHeaderName\":\"SKTestHeaderValue\"}",
             "format": "json",
             "useJwt": true,
-            "customerKey": "4aff730e-db05-4367-9a4d-37cf22220f26",
+            "customerKey": "85c11a89-581a-448b-8d6c-b65ab9bbe5f0",
             "timeout": 200000,
             "retryCount": 1,
             "retryDelay": 5000
