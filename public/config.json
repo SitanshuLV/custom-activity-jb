@@ -15,7 +15,7 @@
     }, 
     "lang": {
 		"en-US": {
-			"name": "COE Ditto LVMh",
+			"name": "COE Ditto WeChat",
 			"description": "Generic custom activity by COE LVMH"
 		}
 	},
@@ -23,13 +23,12 @@
         "execute": {
             "inArguments": [],
             "outArguments": [],
-            "url": "https://eo2f7v5ulj21kj0.m.pipedream.net",
+            "url": "https://mctf56cp9shr3wflzm8m4c5944bq.pub.sfmc-content.com/gvwgqtxbi1e",
             "verb": "POST",
             "body": "",
             "headers": "{\"SKTestHeaderName\":\"SKTestHeaderValue\"}",
             "format": "json",
             "useJwt": true,
-            "customerKey": "85c11a89-581a-448b-8d6c-b65ab9bbe5f0",
             "timeout": 200000,
             "retryCount": 1,
             "retryDelay": 5000
