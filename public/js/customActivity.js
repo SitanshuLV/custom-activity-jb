@@ -16,10 +16,12 @@ connection.on('initActivity', function( data ) {
 
 connection.on('clickedNext', function() {
     //var resp = JSON.parse(document.getElementById('response').value);
+    var eventSelected = JSON.parse(document.getElementById('messageType').value);
     var params = {
         subscriberKey: '{{Contact.key}}',
         email: '{{Event.' + eventKey + '.Email}}',
-        eventkey: eventKey
+        eventkey: eventKey,
+        messageEvent: eventSelected
       };
     payload['arguments'].execute.inArguments = [params];
     payload.metaData.isConfigured = true;
