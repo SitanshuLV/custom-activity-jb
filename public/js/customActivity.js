@@ -16,7 +16,7 @@ connection.on('initActivity', function( data ) {
 
 connection.on('clickedNext', function() {
     //var resp = JSON.parse(document.getElementById('response').value);
-    var eventSelected = JSON.parse(document.getElementById('messageType').value);
+    var eventSelected = document.getElementById('messageType').value;
     var params = {
         subscriberKey: '{{Contact.key}}',
         email: '{{Event.' + eventKey + '.Email}}',
