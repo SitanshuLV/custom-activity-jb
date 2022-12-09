@@ -24,28 +24,22 @@
           </div>
         </div>
     </div>
-    <div class="slds-container_x-large slds-container_center slds-m-bottom_medium">
+    <div class="slds-container_medium slds-container_center slds-m-bottom_medium slds-m-top_medium">
         <article class="slds-card" id="wechatMessageArticle">
-            <div class="slds-grid slds-wrap">
-              <div class="slds-col slds-size--10-of-12 slds-small-size--4-of-12 slds-medium-size--5-of-12 slds-large-size--4-of-12 slds-m-around_medium">
-                <form action="" method="post" id="wechatMessageForm">
-                  <div class="slds-form-element slds-m-top_medium">
-                    <label class="slds-form-element__label" for="messageType">Select the message campaign:</label>
-                    <div class="slds-form-element__control">
-                      <div class="slds-select_container">
-                        <select class="slds-select" id="messageType">
-                          <option value="">Select…</option>
-                          <option value="c_eventTesting">Campaign 1</option>
-                          <option value="flex">Campaign 2</option>
+            <div class="slds-grid slds-wrap slds-m-around_medium">
+                <div class="slds-col slds-size--3-of-12 slds-small-size--3-of-12 slds-medium-size--3-of-12 slds-large-size--3-of-12">
+                    <span class="required-identifier slds-required slds-p-around_none slds-m-around_none">*</span>
+                    <span class="hub-spoke__name-text" data-spoke="messageDefinition">Message Campaign</span>
+                </div>
+                <div class="slds-col slds-size--6-of-12 slds-small-size--6-of-12 slds-medium-size--6-of-12 slds-large-size--6-of-12">
+                    <div class="slds-select_container">
+                        <select class="slds-select" id="messageType" name="messageType">
+                        <option value="">Select…</option>
+                        <option value="c_eventTesting">Campaign 1</option>
+                        <option value="flex">Campaign 2</option>
                         </select>
-                      </div>
                     </div>
-                  </div>
-                  <div class="slds-m-top_medium">
-                    <button class="slds-button slds-button_brand" id="wechatMessageButton">Submit</button>
-                  </div>
-                </form>
-              </div>
+                </div>
             </div>
         </article>
     </div>
