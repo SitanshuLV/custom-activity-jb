@@ -18,10 +18,7 @@ connection.on('clickedNext', function() {
     //var resp = JSON.parse(document.getElementById('response').value);
     var eventSelected = document.getElementById('messageType').value;
     var params = {
-        subscriberKey: '{{Contact.key}}',
-        email: '{{Event.' + eventKey + '.Email}}',
-        eventkey: eventKey,
-        messageEvent: eventSelected
+        subscriberKey: '{{Contact.key}}'
       };
     payload['arguments'].execute.inArguments = [params];
     payload.metaData.isConfigured = true;
